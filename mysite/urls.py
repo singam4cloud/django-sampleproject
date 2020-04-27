@@ -5,5 +5,4 @@ urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
     path('country/', include('country.urls')),
-    path('city/', include('city.urls')),
 ]
